@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.outer-container {
+  position: relative;
+  background-color: black;
+  height:100vh;
+  padding:20px 120px;
+}
+
+.protofolio-title{
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ring-svg{
+  position: absolute;
+  left: -100px;
+  top:100px
+}
+
+.greetings{
+  margin-top: 100px;
+  color: #FFFFFF;
+  font-size: 88px;
+  font-weight: 500;
+  width: 70%;
+}
+
+.intro{
+  margin-top: 40px;
+  color: #FFFFFF;
+  font-size: 18px;
+  width: 40%;
+  font-weight: 300;
+}
