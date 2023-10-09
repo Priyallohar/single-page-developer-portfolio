@@ -129,7 +129,7 @@
  }
 
  .contact-message{
-   width: 50%;
+   width: 60%;
    font-size: 18px;
    font-weight: 100;
    margin-top: 30px;
@@ -150,6 +150,33 @@
    border: none;
    border-bottom: 1px solid #979797;
    width:445px
+ }
+
+ .inputs-container input:focus{
+   outline: none;
+ }
+
+ .name{
+   padding-bottom: 16px;
+   margin-bottom: 30px;
+ }
+
+ .email-address{
+   padding-bottom: 16px;
+   margin-bottom: 30px;
+ }
+
+ .message{
+   background-color: #242424;
+   padding-bottom: 70px;
+   border: none;
+   border-bottom: 1px solid #979797;
+   resize: none;
+ }
+ .ring-svg-contact{
+   position: absolute;
+   left: -100px;
+   top:260px
  }
 
 
