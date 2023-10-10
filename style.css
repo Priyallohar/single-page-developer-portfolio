@@ -181,14 +181,3 @@
 
 
  
-@media screen and (max-width: 768px) {
-   .project-list {
-     grid-template-columns: repeat(2, 1fr); /* Change to two columns on screens less than 768px wide */
-   }
- }
- 
- @media screen and (max-width: 480px) {
-   .project-list {
-     grid-template-columns: 1fr; /* Change to a single column on screens less than 480px wide */
-   }
- }
