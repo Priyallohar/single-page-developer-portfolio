@@ -47,7 +47,8 @@
  }
 
  .contact-me{
-    margin-top: 60px;
+   text-decoration: none;
+    margin-top: 10px;
     width:fit-content;
     font-size: 24px;
     font-weight: 300;
@@ -56,6 +57,15 @@
 
  .contact-me:hover{
    color:#4EE1A0 ;
+ }
+
+ .project-contact-me{
+   text-decoration: none;
+    margin-top: 0px;
+    width:fit-content;
+    font-size: 24px;
+    font-weight: 300;
+    border-bottom: 1px solid #4EE1A0;
  }
 
  .skill-section{
@@ -156,6 +166,19 @@
 
  .social-media svg{
    margin-right: 50px;
+ }
+
+ .name-of-project{
+   margin-top: 20px;
+   font-size: 24px;
+ }
+
+ .tech-used{
+   margin-top: 10px;
+ }
+
+ .tech-used span{
+   margin-right: 10px;
  }
 
  
