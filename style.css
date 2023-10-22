@@ -20,6 +20,13 @@
     font-size: 24px;
     font-weight: 700;
  }
+
+ .portfolio-intro-section{
+ display: flex;
+
+ }
+
+
  .ring-svg{
    position: absolute;
    left: -100px;
@@ -30,7 +37,6 @@
     color: #FFFFFF;
     font-size: 88px;
     font-weight: 500;
-    width: 70%;
     
  }
 
@@ -40,10 +46,37 @@
     font-size: 18px;
     width: 40%;
     font-weight: 300;
+    margin-bottom: 50px;
  }
 
  .name{
     border-bottom: 3px solid #4EE1A0;
+ }
+
+ .intro-pragraphs{
+   flex: 2;
+   z-index: 10;
+ }
+
+ .portfolio-image{
+   position: relative;
+  flex: 1;
+   z-index: 0;
+   height: 720px;
+   width:900px;
+   overflow:hidden; 
+ 
+   /* transform: translate(-100px,-60px); */
+ }
+
+ .circle{
+   position: absolute;
+   left: -110;
+   bottom: 0;
+ }
+
+ .portfolio-image img{
+object-fit:fill;
  }
 
  .contact-me{
@@ -91,9 +124,9 @@
 
 
  .project{
-   height: 1767px;
+   height:fit-content;
    margin-top: 100px;
-   overflow-y: scroll;
+  
  }
 
 .project-header-container{
