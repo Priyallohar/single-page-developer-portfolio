@@ -265,5 +265,16 @@ object-fit:fill;
 }
  
 
+@media screen and (max-width: 400px){
+   .protofolio-title{
+      display:  flex;
+      justify-content: center;
+      font-size: 18px;
+   }
+   .ring-svg{
+     left: -400px;
+   }
+}
+
 
  
