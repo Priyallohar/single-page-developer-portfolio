@@ -162,6 +162,7 @@ object-fit:fill;
    grid-row-gap:10px;
    grid-template-columns: repeat(3, 1fr); 
    margin-bottom: 80px;
+
  }
 
  .contact-section{
@@ -266,6 +267,19 @@ object-fit:fill;
  
 
 @media screen and (max-width: 400px){
+  
+   .outer-container{
+      padding:10px 40px;
+   }
+   .portfolio-image{
+      margin-top: 50px;
+      height: 0px;
+      width:0px;
+   }
+   .portfolio-image img{
+      display: none;
+      object-fit:fill;
+       }
    .protofolio-title{
       display:  flex;
       justify-content: center;
@@ -274,6 +288,56 @@ object-fit:fill;
    .ring-svg{
      left: -400px;
    }
+   .greetings{
+      margin-top: 0px;
+      font-size: 40px;
+      width: 100%;
+   }
+   .portfolio-intro-section{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+     
+   }
+   .intro{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+   }
+   .project-list{
+      grid-template-columns: repeat(1, 1fr); 
+      justify-content: center; 
+    }
+    .skill-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    align-items: center;
+    }
+    .image-container{
+      height: 398px;
+      width: 343px;
+    }
+    .project-list{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 20px;
+
+    }
+    .skill-section div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 }
 
 
