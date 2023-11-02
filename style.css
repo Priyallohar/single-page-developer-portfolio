@@ -350,7 +350,14 @@ margin-top: 5px;
     }
 
     .name-of-project{
+      margin-bottom: 10px;
       justify-content: space-around;
+
+     }
+
+     .tech-used{
+      margin-bottom: 10px;
+      justify-content: flex-start;
      }
 
      .project-header-container{
